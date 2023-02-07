@@ -7,17 +7,23 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
-    "vue": "^2.6.14",
+    "@vue-stripe/vue-stripe": "^4.4.4",
+    "bootstrap-vue": "^2.23.1",
+    "vue": "^2.7.14",
     "vue-class-component": "^7.2.3",
     "vue-property-decorator": "^9.1.2",
     "vue-router": "^3.5.1",
+    "vuelidate": "^0.7.7",
     "vuex": "^3.6.2"
   },
   "devDependencies": {
+    "@types/vuelidate": "^0.7.15",
     "@vue/cli-plugin-router": "~5.0.0",
     "@vue/cli-plugin-typescript": "~5.0.0",
     "@vue/cli-plugin-vuex": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
+    "postcss": "^8.4.19",
+    "postcss-loader": "^7.0.1",
     "typescript": "~4.5.5",
     "vue-template-compiler": "^2.6.14"
   },
